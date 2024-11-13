@@ -73,9 +73,11 @@ run "python3 NucGMTL.py" for training and testing the model for all nucleotides 
 
 2. write your query sequence (once one sequence) in file with file name 'query.txt' like below：
    
-   TTVAQILKAKPDSGRTIYTVTKNDFVYDAIKLMAEKGIGALLVVDGDDIAGIVTERDYARKVVLQERSSKATRVEEIMTAKVRYVEPSQSTDECMALMTEHRMRHLPVLDGGKLIGLISIGDLVKSVIADQQFTIS  
-   
+   TTVAQILKAKPDSGRTIYTVTKNDFVYDAIKLMAEKGIGALLVVDGDDIAGIVTERDYARKVVLQERSSKATRVEEIMTAKVRYVEPSQSTDECMALMTEHRMRHLPVLDGGKLIGLISIGDLVKSVIADQQFTIS     
 
    and put the query.txt into customer_test folder.
+
+   Next coming soon!
+   
    
    
