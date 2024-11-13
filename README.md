@@ -40,7 +40,34 @@ cd to the NucGMTL home dictionary.
 run "python3 NucGMTL.py" for training and testing the model for all nucleotides binding residues prediction in Nuc-1892.  
  
 
-## 3.4 Only For nucleotides binding residues prediction purpose
-
-
+## 3.4 Only for nucleotides binding residues prediction purpose
+1. download the pre-trained model (in http://pan.njust.edu.cn/#/link/P645H8uoTMo2pIBJMoNe) to pre_model folder；  
+   pre_model folder
+   |--task_GDP
+      |--Result_GDP_ADP_ATP_GTP_0_2024-06-17 11_40_15.252408.pkl
+      |--Result_GDP_ADP_ATP_GTP_1_2024-06-17 11_40_15.252408.pkl
+      |--……
+   |--task_ADP_ATP_AMP
+      |--
+   |--task_CDP
+      |--
+   |--task_GMP
+      |--
+   |--task_IMP
+      |--
+   |--task_TTP
+      |--
+   |--task_UMP
+      |--
+   |--task_UTP
+      |--
+   |--task_CMP
+      |--
+   |--task_CTP
+      |--
+   |--task_TMP
+      |--
+   |--task_GTP
+      |--
+   
    
