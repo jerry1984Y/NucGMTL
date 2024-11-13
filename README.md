@@ -15,13 +15,13 @@ scikit-learn = 1.2.2
 
 ProtTrans (ProtT5-XL-UniRef50 model)
 
-EMS2 (esm2_t33_650M_UR50D model) 
+ESM2 (esm2_t33_650M_UR50D model) 
 
 # 2 Datasets
 We provided a total of three benchmark datasets, namely Nuc-1892, Nuc-798, and Nuc-849. Among them,  Nuc-1892 includes five frequently observed nucleotides (ATP, ADP, AMP, GTP, and GDP) and ten infrequently observed nucleotides (TMP, CTP, CMP, UTP, UMP, UDP, IMP, GMP, CDP, and TTP) binding proteins; Nuc-798 and Nuc-849 each consist of five common nucleotide (ATP, ADP, AMP, GTP, GDP) binding proteins constructed at different times.
 
 # 3. How to use
-## 3.1 Set up environment for ProtTrans and EMS2
+## 3.1 Set up environment for ProtTrans and ESM2
 Set ProtTrans follow procedure from https://github.com/agemagician/ProtTrans/tree/master
 Set EMS2 follow procedure from https://github.com/facebookresearch/esm
 
