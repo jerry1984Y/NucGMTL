@@ -43,32 +43,32 @@ run "python3 NucGMTL.py" for training and testing the model for all nucleotides 
 ## 3.4 Only for nucleotides binding residues prediction purpose
 1. download the pre-trained model (in http://pan.njust.edu.cn/#/link/P645H8uoTMo2pIBJMoNe) to pre_model folder；
  
-pre_model folder   
+ pre_model folder   
    |--   task_GDP   
 &nbsp;&nbsp;&nbsp;&nbsp;|--   Result_GDP_ADP_ATP_GTP_0_2024-06-17 11_40_15.252408.pkl   
-     |--  Result_GDP_ADP_ATP_GTP_1_2024-06-17 11_40_15.252408.pkl   
-     |--  ……   
+&nbsp;&nbsp;&nbsp;&nbsp;|--  Result_GDP_ADP_ATP_GTP_1_2024-06-17 11_40_15.252408.pkl   
+&nbsp;&nbsp;&nbsp;&nbsp;|--  ……   
    |--  task_ADP_ATP_AMP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_CDP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_GMP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_IMP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_TTP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_UMP
-      |--
+ &nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_UTP
-      |--
+ &nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_CMP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--  task_CTP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp; |--
    |--  task_TMP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp;|--
    |--task_GTP
-      |--
+&nbsp;&nbsp;&nbsp;&nbsp; |--
    
    
