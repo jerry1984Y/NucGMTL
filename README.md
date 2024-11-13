@@ -45,9 +45,9 @@ run "python3 NucGMTL.py" for training and testing the model for all nucleotides 
  
    pre_model folder   
    |--   task_GDP   
-      |--   Result_GDP_ADP_ATP_GTP_0_2024-06-17 11_40_15.252408.pkl   
-      |--  Result_GDP_ADP_ATP_GTP_1_2024-06-17 11_40_15.252408.pkl   
-      |--  ……   
+     |--   Result_GDP_ADP_ATP_GTP_0_2024-06-17 11_40_15.252408.pkl   
+     |--  Result_GDP_ADP_ATP_GTP_1_2024-06-17 11_40_15.252408.pkl   
+     |--  ……   
    |--  task_ADP_ATP_AMP
       |--
    |--  task_CDP
