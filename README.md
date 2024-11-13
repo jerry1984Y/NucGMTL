@@ -27,8 +27,12 @@ Set EMS2 follow procedure from https://github.com/facebookresearch/esm
 
 
 ## 3.2 Extract features
-Extract pLMs embedding: cd to the NucGMTL/FeatureExtract dictionary, 
+Extract pLMs embedding: cd to the NucGMTL/FeatureExtract dictionary.
+
+
 run "python3 extract_prot1024.py", the pLMs embedding matrixs generated from ProtTrans model will be extracted to embedding/prot_embedding folder.
+
+
 run "python3 extractdata_esm1280.py", the pLMs embedding matrixs generated from ESM2 model will be extracted to embedding/esm_embedding1280 folder.
 
 ## 3.3 Train and test
