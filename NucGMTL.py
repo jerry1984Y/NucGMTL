@@ -275,7 +275,6 @@ def train(itrainfile,modelstoreapl):
                     loss_task += fc
             optimizer.zero_grad()
             loss_task.backward()
-            # clip_grad_norm_要放在backward和step之间
             optimizer.step()
             epoch_loss_train = epoch_loss_train + loss_task.item()
             nb_train += 1
