@@ -28,7 +28,7 @@ def runtask_aux_with_weight2():
     map=0
     for key in keys:
         taskgroups[key]=[]
-        #降序排列每个辅助任务的AUPRC值
+        #AUPRC in descending order decend
         d_ordered=sorted(dict[key].items(),key=lambda x:x[1],reverse=True)  #[('ss',3),('ee',2),('ff',1)]
         #print(d_ordered)
 
@@ -38,7 +38,7 @@ def runtask_aux_with_weight2():
             #do not compared with itself
             if okey==key:
                 continue
-            #对主要任务没有帮助的不进行计算
+            #remove useless task
             if ovalue<=0.01:
                 continue
             if len(taskgroups[key])==0:
