@@ -51,7 +51,8 @@ put the query.txt into customer_test folder.
 cd to the NucGMTL home dictionary.  
 run "python3 Nuc_GMTL_Prediction.py" for testing, and the predicted result named "result.xlsx" will be stored in customer_test folder.  
 
-
+## Note
+If you have any question, please contact us at:smartshun@njust.edu.cn
    
 ## REFERENCES
 [1] Yu, D. J.; Hu, J.; Yang, J.; Shen, H. B.; Tang, J.; Yang, J. Y. Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering. IEEE/ACM Trans Comput Biol Bioinform, 2013, 10(4), 994-1008.   
