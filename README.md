@@ -80,7 +80,7 @@ run "python3 NucGMTL.py" for training and testing the model for all nucleotides 
    Next coming soon!
    
 ## REFERENCES
-[1] Yu, D. J.; Hu, J.; Yang, J.; Shen, H. B.; Tang, J.; Yang, J. Y. Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering. IEEE/ACM Trans Comput Biol Bioinform, 2013, 10(4), 994-1008.
+[1] Yu, D. J.; Hu, J.; Yang, J.; Shen, H. B.; Tang, J.; Yang, J. Y. Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering. IEEE/ACM Trans Comput Biol Bioinform, 2013, 10(4), 994-1008.   
 [2] Chen, K.; Mizianty, M. J.; Kurgan, L. Prediction and analysis of nucleotide-binding residues using sequence and sequence-derived structural descriptors. Bioinformatics, 2012, 28(3), 331-341.
    
    
