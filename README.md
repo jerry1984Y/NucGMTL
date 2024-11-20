@@ -17,7 +17,7 @@ We provided a total of three benchmark datasets, namely Nuc-1892 (proposed by ou
 
 # 3. How to use
 ## 3.1 Set up environment for ProtTrans and ESM2
-Set ProtTrans follow procedure from https://github.com/agemagician/ProtTrans/tree/master 
+Set ProtTrans follow procedure from https://github.com/agemagician/ProtTrans/tree/master  
 Set EMS2 follow procedure from https://github.com/facebookresearch/esm
 
 ## 3.2 Train and Test
