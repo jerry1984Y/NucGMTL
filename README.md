@@ -1,8 +1,8 @@
 # Identifying Protein-nucleotide Binding Residues via Grouped Multi-task Learning and Pre-trained Protein Language Models
 
-The accurate identification of protein-nucleotide binding residues is crucial for protein function annotation and drug discovery. Numerous computational methods have been proposed to predict these binding residues, achieving remarkable performance. However, due to the limited availability and high variability of nucleotides, predicting binding residues for diverse nucleotides remains a significant challenge. To address these, we propose NucGMTL, a new grouped deep multi-task learning approach designed for predicting binding residues of all observed nucleotides in the BioLiP database. NucGMTL leverages pre-trained protein language models to generate robust sequence embedding and incorporates multi-scale learning along with scale-based self-attention mechanisms to capture a broader range of feature dependencies. To effectively harness the shared binding patterns across various nucleotides, deep multi-task learning is utilized to distill common representations, taking advantage of auxiliary information from similar nucleotides selected based on task grouping. Performance evaluation on benchmark datasets shows that NucGMTL achieves an average area under the Precision-Recall curve (AUPRC) of 0.594, surpassing other state-of-the-art methods. Further analyses highlight that the predominant advantage of NucGMTL can be reflected by its effective integration of grouped multi-task learning and pre-trained protein language models. The dataset and source code are freely accessible at: https://github.com/jerry1984Y/NucGMTL.
+The accurate identification of protein-nucleotide binding residues is crucial for protein function annotation and drug discovery. Numerous computational methods have been proposed to predict these binding residues, achieving remarkable performance. However, due to the limited availability and high variability of nucleotides, predicting binding residues for diverse nucleotides remains a significant challenge. To address these, we propose NucGMTL, a new grouped deep multi-task learning approach designed for predicting binding residues of all observed nucleotides in the BioLiP database. NucGMTL leverages pre-trained protein language models to generate robust sequence embedding and incorporates multi-scale learning along with scale-based self-attention mechanisms to capture a broader range of feature dependencies. To effectively harness the shared binding patterns across various nucleotides, deep multi-task learning is utilized to distill common representations, taking advantage of auxiliary information from similar nucleotides selected based on task grouping. Performance evaluation on benchmark datasets shows that NucGMTL achieves an average area under the Precision-Recall curve (AUPRC) of 0.594, surpassing other state-of-the-art methods. Further analyses highlight that the predominant advantage of NucGMTL can be reflected by its effective integration of grouped multi-task learning and pre-trained protein language models. 
 
-The pre-trained model is at http://pan.njust.edu.cn/#/link/P645H8uoTMo2pIBJMoNe
+The pre-trained model is uploaded to http://pan.njust.edu.cn/#/link/P645H8uoTMo2pIBJMoNe
 
 # 1. Requirements
 Python >= 3.10.6
@@ -18,7 +18,7 @@ ProtTrans (ProtT5-XL-UniRef50 model)
 ESM2 (esm2_t33_650M_UR50D model) 
 
 # 2 Datasets
-We provided a total of three benchmark datasets, namely Nuc-1892, Nuc-798, and Nuc-849. Among them,  Nuc-1892 includes five frequently observed nucleotides (ATP, ADP, AMP, GTP, and GDP) and ten infrequently observed nucleotides (TMP, CTP, CMP, UTP, UMP, UDP, IMP, GMP, CDP, and TTP) binding proteins; Nuc-798 and Nuc-849 each consist of five common nucleotide (ATP, ADP, AMP, GTP, GDP) binding proteins constructed at different times.
+We provided a total of three benchmark datasets, namely Nuc-1892, Nuc-798, and Nuc-849. Among them,  Nuc-1892 includes five frequently observed nucleotides (ATP, ADP, AMP, GTP, and GDP) and ten infrequently observed nucleotides (TMP, CTP, CMP, UTP, UMP, UDP, IMP, GMP, CDP, and TTP) binding proteins; Nuc-798 (proposed by Yu et al [1] in 2013) and Nuc-849 (proposed by Chen et al. [2] in 2011) each consist of five common nucleotide (ATP, ADP, AMP, GTP, GDP) binding proteins constructed at different times.
 
 # 3. How to use
 ## 3.1 Set up environment for ProtTrans and ESM2
@@ -78,6 +78,10 @@ run "python3 NucGMTL.py" for training and testing the model for all nucleotides 
    and put the query.txt into customer_test folder.
 
    Next coming soon!
+   
+## REFERENCES
+[1] Yu, D. J.; Hu, J.; Yang, J.; Shen, H. B.; Tang, J.; Yang, J. Y. Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering. IEEE/ACM Trans Comput Biol Bioinform, 2013, 10(4), 994-1008.
+[2] Chen, K.; Mizianty, M. J.; Kurgan, L. Prediction and analysis of nucleotide-binding residues using sequence and sequence-derived structural descriptors. Bioinformatics, 2012, 28(3), 331-341.
    
    
    
