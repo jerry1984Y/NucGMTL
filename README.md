@@ -49,7 +49,7 @@ TTVAQILKAKPDSGRTIYTVTKNDFVYDAIKLMAEKGIGALLVVDGDDIAGIVTERDYARKVVLQERSSKATRVEEIMTA
 put the query.txt into customer_test folder.  
 
 cd to the NucGMTL home dictionary.  
-run "python3 Nuc_GMTL_Prediction.py" for testing, and the result named "result.xlsx" will be stored in customer_test folder.  
+run "python3 Nuc_GMTL_Prediction.py" for testing, and the predicted result named "result.xlsx" will be stored in customer_test folder.  
 
 
    
