@@ -5,9 +5,9 @@ The accurate identification of protein-nucleotide binding residues is crucial fo
 The pre-trained model is uploaded to http://pan.njust.edu.cn/#/link/P645H8uoTMo2pIBJMoNe
 
 # 1. Requirements
-Python >= 3.10.6
+Python >= 3.10.6 
 
-torch = 2.0.0
+torch = 2.0.0 
 
 pandas = 2.0.0
 
