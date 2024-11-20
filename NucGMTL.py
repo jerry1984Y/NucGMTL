@@ -79,7 +79,6 @@ class BioinformaticsDataset(Dataset):
         label = torch.tensor(label)
         #reduce 2D to 1D
         label=torch.squeeze(label)
-        #ADP-0; AMP-1; ATP-2; GDP-3; GTP-4
         taskid=0
         find=False
         for taskname in self.Tasks:
@@ -207,8 +206,6 @@ class MTLModule(nn.Module):
         self.tasklen=tasklen
         self.ShardEncoder=Task_shared(self.inputdim)
 
-        #ADP-0; AMP-1; ATP-2; GDP-3; GTP-4
-
         self.tasks_fcs = nn.ModuleList()
 
         for i in range(self.tasklen):
@@ -321,7 +318,7 @@ def test(itestfile,modelstoreapl):
 
             data_ys = torch.nn.utils.rnn.pack_padded_sequence(data_ys, lengths, batch_first=True)
             taskids = torch.nn.utils.rnn.pack_padded_sequence(taskids, lengths, batch_first=True)
-            # ADP-0; AMP-1; ATP-2;
+ 
             for i in range(len(itestfile)):
                 indexs = torch.nonzero(taskids.data == i).squeeze()
                 task_pred = task_outs[i].data[indexs]
@@ -426,9 +423,9 @@ if __name__ == "__main__":
     task11=['GMP','ATP']
     task12=['CDP','ADP']
     #signle task learning for UDP
-
+    task13=['UDP']
+    
     tasks=task1 #change taskid for different task
-
 
     circle=5
     a = str(datetime.datetime.now())
