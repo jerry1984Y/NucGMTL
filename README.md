@@ -5,16 +5,11 @@ The accurate identification of protein-nucleotide binding residues is crucial fo
 The pre-trained model is uploaded to http://pan.njust.edu.cn/#/link/P645H8uoTMo2pIBJMoNe
 
 # 1. Requirements
-Python >= 3.10.6 
-
-torch = 2.0.0 
-
-pandas = 2.0.0
-
-scikit-learn = 1.2.2
-
-ProtTrans (ProtT5-XL-UniRef50 model)
-
+Python >= 3.10.6  
+torch = 2.0.0  
+pandas = 2.0.0  
+scikit-learn = 1.2.2  
+ProtTrans (ProtT5-XL-UniRef50 model)  
 ESM2 (esm2_t33_650M_UR50D model) 
 
 # 2 Datasets
